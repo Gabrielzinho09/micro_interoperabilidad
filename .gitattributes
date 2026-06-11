@@ -1,0 +1,15 @@
+# Normaliza fin de linea: LF en el repo, conversion automatica al hacer checkout.
+* text=auto eol=lf
+
+# Archivos que deben conservar LF siempre
+*.ts text eol=lf
+*.js text eol=lf
+*.json text eol=lf
+*.sql text eol=lf
+*.md text eol=lf
+*.env text eol=lf
+
+# Binarios: sin conversion
+*.png binary
+*.jpg binary
+*.ico binary
